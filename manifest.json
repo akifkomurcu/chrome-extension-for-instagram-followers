@@ -1,0 +1,21 @@
+{
+    "name": "unfollowers",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "description": "A simple script to find out who unfollowed you on Instagram",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "storage",
+        "https://www.instagram.com/*",
+        "https://www.instagram.com"
+        
+    ]
+
+}
